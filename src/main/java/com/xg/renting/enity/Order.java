@@ -3,7 +3,7 @@ package com.xg.renting.enity;
 import lombok.Data;
 
 @Data
-public class order {
+public class Order {
     //订单id、订单名称、租户id、商户id、订单价格、入住时间、租期、订单状态（0 待支付、1已支付）
     private int order_id;
     private String order_name;

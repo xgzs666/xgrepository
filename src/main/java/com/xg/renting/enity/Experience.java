@@ -3,7 +3,7 @@ package com.xg.renting.enity;
 import lombok.Data;
 
 @Data
-public class experience {
+public class Experience {
     private int experience_id;
     private String experience_title;
     private String experience_content;

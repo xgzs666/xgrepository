@@ -3,7 +3,7 @@ package com.xg.renting.enity;
 import lombok.Data;
 
 @Data
-public class house {
+public class House {
 
     private int house_id;
     private String house_title;          //标题，房型等
