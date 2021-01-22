@@ -1,4 +1,4 @@
-package com.xg.renting.untils;
+package com.xg.renting.until;
 
 import org.springframework.web.multipart.MultipartFile;
 

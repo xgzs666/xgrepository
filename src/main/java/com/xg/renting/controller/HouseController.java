@@ -25,4 +25,21 @@ public class HouseController {
         return  houseService.insertHouse(house);
     }
 
+    @ApiOperation(value = "删除房源")
+    @PostMapping(value = "deleteHouse")
+    public Response deleteHouse(@RequestBody int house_id,int merchant_id) {
+        return  houseService.deleteHouse(house_id,merchant_id);
+    }
+
+    @ApiOperation(value = "修改房源")
+    @PostMapping(value = "updateHouse")
+    public Response updateHouse(@RequestBody House house) {
+        return  houseService.updateHouse(house);
+    }
+
+    @ApiOperation(value = "查询目的地房源")
+    @PostMapping(value = "selectHouse")
+    public Response selectHouseByPlace(@RequestBody String place) {
+        return  houseService.selectHouseByPlace(place);
+    }
 }
