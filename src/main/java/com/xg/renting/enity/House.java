@@ -8,7 +8,8 @@ public class House {
     private int house_id;
     private String house_title;          //标题，房型等
     private String house_information;   //具体信息：地址，房子介绍
+    private String house_place;         //房源所在地
     private int merchant_id;
     private float house_price;
-    private int house_lease;
+    private int house_lease;          //是否被出租
 }
